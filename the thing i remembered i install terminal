@@ -1,0 +1,27 @@
+Create the Project
+npm create vite@latest hotel-frontend -- --template react
+cd hotel-frontend
+npm install
+
+Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"]
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npx shadcn-ui@latest init
+
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add table
+npx shadcn-ui@latest add input
+
+npm install lucide-react
+
+npm install axios
+
+npm install react-router-dom
